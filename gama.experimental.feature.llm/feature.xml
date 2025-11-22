@@ -25,4 +25,12 @@
          id="gama.experimental.llm"
          version="0.0.0"/>
 
+   <plugin
+         id="gama.experimental.llm.lib1"
+         version="0.0.0"/>
+
+   <plugin
+         id="gama.experimental.llm.lib2"
+         version="0.0.0"/>
+
 </feature>

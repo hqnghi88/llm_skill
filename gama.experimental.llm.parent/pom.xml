@@ -9,9 +9,9 @@
   <packaging>pom</packaging>
 
   <scm>
-    <connection>git:https://github.com/project-SIMPLE/gaml.extension.unity.git</connection>
-    <developerConnection>git:git@github.com:project-SIMPLE/gaml.extension.unity.git</developerConnection>
-    <url>https://github.com/project-SIMPLE/gaml.extension.unity</url>
+    <connection>git:https://github.com/hqnghi88/llm_skill.git</connection>
+    <developerConnection>git:git@github.com:hqnghi88/llm_skill.git</developerConnection>
+    <url>https://github.com/hqnghi88/llm_skill</url>
   </scm>
 
   <modules> 
@@ -36,12 +36,12 @@
     <wagon.version>3.5.3</wagon.version>
 
     <!-- Required properties for releasing -->
-    <github-update-repo>git@github.com:project-SIMPLE/gaml.extension.unity.git</github-update-repo>
+    <github-update-repo>git@github.com:hqnghi88/llm_skill.git</github-update-repo>
     <github-local-clone>${project.build.directory}/checkout</github-local-clone>
     <releases-directory>${github-local-clone}/releases</releases-directory>
     <current-release-directory>${releases-directory}/${qualifiedVersion}</current-release-directory>
     <!-- The label for the Composite sites -->
-    <site.label>Project SIMPLE - GAMA's extension Site</site.label>
+    <site.label>LLM extension for GAMA 's Site</site.label>
   </properties>
 
   <repositories>
