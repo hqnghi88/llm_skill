@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Gaml.MCP extension
+Bundle-Name: LLM extension
 Bundle-SymbolicName: gama.experimental.llm;singleton:=true
 Bundle-Vendor: CICT-MIAT
 Bundle-Version: 1.0.0.qualifier

@@ -4,5 +4,5 @@
       <category name="gama.experimental.llm"/>
    </feature>
 
-   <category-def name="gama.experimental.llm" label="SIMPLE GAMA plugin for Unity"/>
+   <category-def name="gama.experimental.llm" label="LLM plugin for GAMA"/>
 </site>
