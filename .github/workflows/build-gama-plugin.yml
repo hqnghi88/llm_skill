@@ -41,4 +41,4 @@ jobs:
 
     - name: Build with Maven
       run: mvn verify
-      working-directory: "../gama.experimental.llm.parent"
+      working-directory: "${{ github.workspace }}/gama.experimental.llm.parent"
