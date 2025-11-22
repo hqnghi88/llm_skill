@@ -3,10 +3,10 @@ name: "[GAMA Plugin] Java CI with Maven"
 on:
   push:
     paths:
-    - 'GAMA Plugin/**'
+    - '/**'
   pull_request:
     paths:
-    - 'GAMA Plugin/**'
+    - '/**'
   workflow_dispatch:
 
 jobs:
