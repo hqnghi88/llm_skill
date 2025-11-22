@@ -7,7 +7,9 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-21
 Require-Bundle: gama.core;bundle-version="0.0.0",
  gama.dependencies;bundle-version="0.0.0",
- org.apache.commons.commons-io;bundle-version="2.18.0"
+ org.apache.commons.commons-io;bundle-version="2.18.0",
+ gama.experimental.llm.lib1;bundle-version="1.0.0",
+ gama.experimental.llm.lib2;bundle-version="1.0.0"
 Bundle-ClassPath: lib/api-0.31.1.jar,
  lib/jackson-annotations-2.19.0.jar,
  lib/jackson-core-2.19.0.jar,

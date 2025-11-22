@@ -14,7 +14,9 @@
     <url>https://github.com/project-SIMPLE/gaml.extension.unity</url>
   </scm>
 
-  <modules>
+  <modules> 
+    <module>../gama.experimental.llm.lib1</module>
+    <module>../gama.experimental.llm.lib2</module>
     <module>../gama.experimental.llm</module>
     <module>../gama.experimental.feature.llm</module>
     <module>../gama.experimental.llm.site</module>
