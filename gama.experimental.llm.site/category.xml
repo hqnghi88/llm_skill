@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature id="gama.experimental.feature.llm" version="0.0.0">
-      <category name="gama.experimental.llm"/>
-   </feature>
-
-   <category-def name="gama.experimental.llm" label="LLM plugin for GAMA"/>
-</site>

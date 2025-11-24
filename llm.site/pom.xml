@@ -11,7 +11,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>gama.experimental.llm.site</artifactId>
+  <artifactId>llm.site</artifactId>
   <packaging>eclipse-repository</packaging>
 
   <build>

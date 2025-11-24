@@ -48,4 +48,4 @@ jobs:
     - name: Build with Maven
       run: |
         mvn deploy -Prelease-composite -Dgithub-update-repo=https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/hqnghi88/llm_skill
-      working-directory: "gama.experimental.llm.parent"
+      working-directory: "llm.parent"
