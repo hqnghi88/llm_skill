@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="gama.experimental.feature.llm"
+      id="llm.feature"
       label="LLM"
       version="1.0.0.qualifier"
       provider-name="CICT">
@@ -22,7 +22,7 @@
    </url>
 
    <plugin
-         id="gama.experimental.llm"
+         id="llm"
          version="0.0.0"/>
 
 </feature>

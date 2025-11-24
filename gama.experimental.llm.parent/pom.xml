@@ -3,21 +3,21 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>gama.experimental.llm</groupId>
-  <artifactId>gama.experimental.llm.parent</artifactId>
+  <groupId>org.gama</groupId>
+  <artifactId>llm.parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <scm>
-    <connection>git:https://github.com/project-SIMPLE/gaml.extension.unity.git</connection>
-    <developerConnection>git:git@github.com:project-SIMPLE/gaml.extension.unity.git</developerConnection>
-    <url>https://github.com/project-SIMPLE/gaml.extension.unity</url>
+    <connection>git:https://github.com/hqnghi88/llm_skill.git</connection>
+    <developerConnection>git:git@github.com:hqnghi88/llm_skill.git</developerConnection>
+    <url>https://github.com/hqnghi88/llm_skill</url>
   </scm>
 
   <modules>
-    <module>../gama.experimental.llm</module>
-    <module>../gama.experimental.feature.llm</module>
-    <module>../gama.experimental.llm.site</module>
+    <module>../llm</module>
+    <module>../llm.feature</module>
+    <module>../llm.site</module>
   </modules>
 
   <properties>
@@ -34,12 +34,12 @@
     <wagon.version>3.5.3</wagon.version>
 
     <!-- Required properties for releasing -->
-    <github-update-repo>git@github.com:project-SIMPLE/gaml.extension.unity.git</github-update-repo>
+    <github-update-repo>git@github.com:hqnghi88/llm_skill.git</github-update-repo>
     <github-local-clone>${project.build.directory}/checkout</github-local-clone>
     <releases-directory>${github-local-clone}/releases</releases-directory>
     <current-release-directory>${releases-directory}/${qualifiedVersion}</current-release-directory>
     <!-- The label for the Composite sites -->
-    <site.label>Project SIMPLE - GAMA's extension Site</site.label>
+    <site.label>LLM - GAMA's extension Site</site.label>
   </properties>
 
   <repositories>
