@@ -2,11 +2,12 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='&quot;LLM - GAMA&apos;s extension Site&quot; 1.0.x' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1763996398151'/>
+    <property name='p2.timestamp' value='1764113882226'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='2'>
+  <children size='3'>
     <child location='../../../releases/1.0.0.v20251124-1426'/>
     <child location='../../../releases/1.0.0.v20251124-1457'/>
+    <child location='../../../releases/1.0.0.v20251125-2335'/>
   </children>
 </repository>
