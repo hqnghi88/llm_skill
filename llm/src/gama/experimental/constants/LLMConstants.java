@@ -13,7 +13,7 @@ package gama.experimental.constants;
 /**
  * The Interface INetworkSkill.
  */
-public interface MCPConstants {
+public interface LLMConstants {
 	
 	
 	public static final String MEMORY = "memory";

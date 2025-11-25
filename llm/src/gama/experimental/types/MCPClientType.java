@@ -16,7 +16,7 @@ import gama.annotations.precompiler.IConcept;
 import gama.core.runtime.IScope;
 import gama.core.runtime.exceptions.GamaRuntimeException;
 import gama.core.util.IMap;
-import gama.experimental.constants.MCPConstants;
+import gama.experimental.constants.LLMConstants;
 import gama.gaml.types.GamaType;
 import gama.gaml.types.IType;
 
@@ -27,7 +27,7 @@ import gama.gaml.types.IType;
 		name = "mcp_client",
 		id = MCPClientType.id,
 		wraps = { MCPClient.class },
-		concept = { IConcept.TYPE, MCPConstants.LLM_MODEL })
+		concept = { IConcept.TYPE, LLMConstants.LLM_MODEL })
 @doc ("represents a MCP client that manages interactions with an assistant by sending messages through the specified mcp_transport and handling the responses")
 public class MCPClientType extends GamaType<MCPClient> {
 
