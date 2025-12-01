@@ -88,7 +88,7 @@
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-document-parser-apache-tika</artifactId>
-       		<version>1.9.0-beta16-SNAPSHOT</version>
+       		<version>1.9.1-beta17</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.commons</groupId>
