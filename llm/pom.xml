@@ -47,6 +47,68 @@
 			<artifactId>gama.ui.shared</artifactId>
 			<version>${gama.version}</version>
 		</dependency>
+		
+		
+
+        <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j</artifactId>
+        <version>1.1.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-open-ai</artifactId>
+        <version>1.1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-google-ai-gemini</artifactId>
+        <version>1.1.0-rc1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-ollama</artifactId>
+        <version>1.1.0-rc1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-easy-rag</artifactId>
+        <version>1.1.0-beta7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-embeddings-bge-small-en</artifactId>
+        <version>1.1.0-beta7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-document-parser-apache-tika</artifactId>
+        <version>1.1.0-beta7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-mcp</artifactId>
+        <version>1.1.0-beta7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-http-client-jdk</artifactId>
+        <version>1.1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.knuddels</groupId>
+        <artifactId>jtokkit</artifactId>
+        <version>1.1.0</version>
+    </dependency>
 	</dependencies>
  
 	<build>
@@ -69,6 +131,26 @@
 		</extensions>
 
 		<plugins>
+		<plugin>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>3.6.0</version>
+            <executions>
+                <execution>
+                    <id>copy-dependencies</id>
+                    <phase>initialize</phase>
+                    <goals>
+                        <goal>copy-dependencies</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>${project.basedir}/lib</outputDirectory>
+                        <overWriteReleases>false</overWriteReleases>
+                        <overWriteSnapshots>false</overWriteSnapshots>
+                        <overWriteIfNewer>true</overWriteIfNewer>
+                        <excludeScope>provided</excludeScope> 
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
 	        <plugin>
 	          <groupId>org.eclipse.tycho</groupId>
 	          <artifactId>tycho-p2-repository-plugin</artifactId>
