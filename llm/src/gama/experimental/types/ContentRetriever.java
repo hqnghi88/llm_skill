@@ -41,14 +41,9 @@ public class ContentRetriever implements IValue {
 
 	public ContentRetriever(Path path) {
 		List<Document> documents = null;
-		try {
-			documents = FileSystemDocumentLoader.loadAllFromDirectory(
-			          path
-			    );
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
+		documents = FileSystemDocumentLoader.loadDocuments(
+		          path
+		    ); 
 		if (documents!=null && documents.size() > 0) {
 			
 
