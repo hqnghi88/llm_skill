@@ -33,9 +33,9 @@ jobs:
         echo "=== Check if well installed ==="
         echo "$ mvn -version"
         mvn -version
-		cd llm
-		mvn clean initialize
-		cd .. 
+        cd llm
+        mvn clean initialize
+        cd .. 
 
     - name: Build with Maven
       run: mvn verify
