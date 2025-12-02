@@ -139,6 +139,7 @@
 	<classpathentry exported="true" kind="lib" path="lib/langchain4j-open-ai-1.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/opennlp-tools-2.5.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-2.0.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/langchain4j-embeddings-bge-small-en-v15-q-1.9.0-beta16.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -183,5 +184,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/tika-parser-xmp-commons-3.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/tika-parser-zip-commons-3.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/langchain4j-document-parser-apache-tika-1.9.1-beta17.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/langchain4j-embeddings-1.9.0-beta16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

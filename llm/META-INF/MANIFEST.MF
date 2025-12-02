@@ -262,7 +262,9 @@ Bundle-ClassPath: lib/api-0.31.1.jar,
  lib/xmpbox-3.0.5.jar,
  lib/xmpcore-6.1.11.jar,
  lib/xz-1.10.jar,
- lib/langchain4j-document-parser-apache-tika-1.9.1-beta17.jar
+ lib/langchain4j-document-parser-apache-tika-1.9.1-beta17.jar,
+ lib/langchain4j-embeddings-bge-small-en-v15-q-1.9.0-beta16.jar,
+ lib/langchain4j-embeddings-1.9.0-beta16.jar
 Export-Package: gama.experimental.constants,
  gama.experimental.skills,
  gama.experimental.types
