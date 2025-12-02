@@ -35,6 +35,7 @@ jobs:
         mvn -version
         cd llm
         mvn clean initialize
+        ls
         cd .. 
 
     - name: Build with Maven
