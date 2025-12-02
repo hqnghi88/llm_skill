@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry exported="true" kind="lib" path="lib/angus-activation-2.0.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/animal-sniffer-annotations-1.9.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/annotations-13.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/aopalliance-1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/apache-mime4j-core-0.8.13.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/apache-mime4j-dom-0.8.13.jar"/>
@@ -25,7 +24,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/commons-csv-1.14.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-exec-1.5.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-io-2.18.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/commons-lang3-3.16.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-logging-1.3.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-math3-3.6.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/curvesapi-1.08.jar"/>
@@ -55,7 +53,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/jempbox-1.8.17.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jhighlight-1.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jmatio-1.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jna-5.16.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jna-platform-5.16.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jsoup-1.21.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jsr305-3.0.2.jar"/>
@@ -67,45 +64,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/kotlin-stdlib-jdk7-1.8.21.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/kotlin-stdlib-jdk8-1.8.21.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/log4j-api-2.24.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/metadata-extractor-2.19.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.apache.felix.scr-2.2.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.contenttype-3.9.600.v20241001-1711.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.expressions.source-3.9.400.v20240413-1529.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.expressions-3.9.400.v20240413-1529.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.filesystem-1.11.100.v20241022-0806.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.jobs-3.15.500.v20250204-0817.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.resources-3.22.100.v20250206-1238.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.core.runtime-3.33.0.v20250206-0919.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.emf.common-2.41.0.v20241204-1554.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.emf.ecore-2.38.0.v20241018-1213.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.app-1.7.300.v20250130-0528.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.common-3.20.0.v20250129-1348.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.artifact.repository-1.5.600.v20250129-0528.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.core-2.13.0.v20250129-0522.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.director-2.6.600.v20250129-0525.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.engine-2.10.400.v20250129-0520.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.jarprocessor-1.3.500.v20250129-0523.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.metadata.repository-1.5.500.v20250129-0521.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.metadata-2.9.300.v20250129-0519.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.operations-2.7.500.v20250129-0944.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.p2.repository-2.9.300.v20250212-0912.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.preferences-3.11.300.v20250130-0533.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.registry-3.12.300.v20250129-1129.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.security-1.4.500.v20250129-1350.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.equinox.simpleconfigurator-1.5.400.v20250129-0942.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.osgi-3.23.0.v20250228-0640.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.eclipse.xsd-2.20.0.v20240911-0848.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.namespace.extender-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.namespace.implementation-1.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.service.component-1.5.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.service.event-1.4.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.service.prefs-1.1.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.util.function-1.2.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.osgi.util.promise-1.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.ow2.sat4j.core-2.3.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.ow2.sat4j.pb-2.3.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/osgi.annotation-8.0.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/parso-2.0.14.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/picocli-4.7.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/reload4j-1.2.26.jar"/>
@@ -185,5 +143,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/tika-parser-zip-commons-3.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/langchain4j-document-parser-apache-tika-1.9.1-beta17.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/langchain4j-embeddings-1.9.0-beta16.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/tika-langdetect-optimaize-3.2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
