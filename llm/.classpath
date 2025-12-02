@@ -34,26 +34,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/error_prone_annotations-2.36.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/failureaccess-1.0.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/fontbox-3.0.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.annotations-2025.5.0.202505041744.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.core-2025.5.0.202505041744.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.core-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-commons-math3-3.6.1.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-Java-WebSocket-1.5.3.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-moeaframework-2.13.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-protobuf-java-3.6.1.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-slf4j-api-2.0.9.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.0.202505041744-slf4j-nop-2.0.9.jar.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.dependencies-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.extension.image-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.extension.network-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.extension.serialize-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.processor-2025.5.0.202505041744.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.ui.application-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.ui.editor-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.ui.navigator-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gama.ui.shared-2025.5.5-SNAPSHOT.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gaml.compiler-2025.5.5-SNAPSHOT.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/guava-33.4.0-jre.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/guice-7.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/icu4j-76.1.jar"/>
