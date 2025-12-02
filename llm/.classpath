@@ -12,9 +12,7 @@
 	<classpathentry exported="true" kind="lib" path="lib/batik-shared-resources-1.18.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/batik-util-1.18.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/bcjmail-jdk18on-1.81.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/bcpg-jdk18on-1.80.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/bcpkix-jdk18on-1.81.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/bcprov-jdk18on-1.80.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/bcutil-jdk18on-1.81.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/checker-qual-3.43.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/com.sun.jna-5.16.0.v20241222-1200.jar"/>
