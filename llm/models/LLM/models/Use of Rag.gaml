@@ -24,7 +24,7 @@ global {
 			chat_bot <- create_assistant(llm:llm, content_retriever: cr, memory:mem);
 		} 
 		
-		string question <- "Who is Jonh Doe?";
+		string question <- "What is Jonh Doe's Early Life and Education?";
 		write " ***** " + question + " ***** " ;
 		ask first(Agent_without_RAG) {do answer_question(question);}
 		ask first(Agent_with_RAG) {do answer_question(question);}
