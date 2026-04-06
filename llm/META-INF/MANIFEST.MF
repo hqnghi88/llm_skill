@@ -5,9 +5,12 @@ Bundle-SymbolicName: llm;singleton:=true
 Bundle-Vendor: CICT-MIAT
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-21
-Require-Bundle: gama.core;bundle-version="0.0.0",
- gama.dependencies;bundle-version="0.0.0",
- org.apache.commons.commons-io;bundle-version="2.18.0"
+Require-Bundle: gama.dependencies;bundle-version="0.0.0",
+ org.apache.commons.commons-io;bundle-version="2.18.0",
+ gama.api;bundle-version="0.0.0",
+ gama.annotations;bundle-version="0.0.0";visibility:=reexport,
+ gama.core;bundle-version="0.0.0",
+ gaml.compiler;bundle-version="0.0.0"
 Bundle-ClassPath: lib/api-0.31.1.jar,
  lib/langchain4j-1.1.0.jar,
  lib/langchain4j-core-1.1.0.jar,
@@ -57,7 +60,8 @@ Bundle-ClassPath: lib/api-0.31.1.jar,
  lib/pdfbox-io-3.0.5.jar,
  lib/pdfbox-tools-3.0.5.jar,
  lib/commons-logging-1.2.jar,
- lib/fontbox-3.0.5.jar
+ lib/fontbox-3.0.5.jar,
+ lib/commons-compress-1.28.0.jar
 Export-Package: gama.experimental.constants,
  gama.experimental.skills,
  gama.experimental.types

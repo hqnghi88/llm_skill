@@ -22,18 +22,20 @@ import dev.langchain4j.model.ollama.OllamaChatModel;
 import dev.langchain4j.model.ollama.OllamaChatModel.OllamaChatModelBuilder;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.model.openai.OpenAiChatModel.OpenAiChatModelBuilder;
-import gama.annotations.precompiler.GamlAnnotations.doc;
-import gama.annotations.precompiler.GamlAnnotations.getter;
-import gama.annotations.precompiler.GamlAnnotations.variable;
-import gama.annotations.precompiler.GamlAnnotations.vars;
-import gama.core.common.interfaces.IValue;
-import gama.core.runtime.IScope;
-import gama.core.runtime.exceptions.GamaRuntimeException;
-import gama.core.util.file.json.Json;
-import gama.core.util.file.json.JsonValue;
+import gama.annotations.doc;
+import gama.annotations.getter;
+import gama.annotations.variable;
+import gama.annotations.vars;
+import gama.api.exceptions.GamaRuntimeException;
+import gama.api.gaml.types.IType;
+import gama.api.gaml.types.Types;
+import gama.api.runtime.scope.IScope;
+import gama.api.types.misc.IValue;
+import gama.api.utils.json.IJson;
+import gama.api.utils.json.IJsonValue;
+import gama.core.util.json.Json;
+import gama.core.util.json.JsonValue;
 import gama.experimental.constants.LLMConstants;
-import gama.gaml.types.IType;
-import gama.gaml.types.Types;
 
 /**
  * The Class Predicate.
@@ -81,11 +83,7 @@ public class ChatModel implements IValue {
 	private Integer timeOut;
 	private dev.langchain4j.model.chat.ChatModel model;
 	private Memory memory;
-	
-	@Override
-	public JsonValue serializeToJson(final Json json) {
-		return json.typedObject(getGamlType(),"model", model);
-	}
+	 
 	
 	public ChatModel(String modelnameToBuild, String urlToBuild, String responseFormat,Integer numCtx, Integer seed, Double temperature, Double topP, Integer numPredict, Double repeatPenalty,  Integer topK) {
 		super();
@@ -403,5 +401,11 @@ public class ChatModel implements IValue {
 	 */ 
 	@Override
 	public IType<?> getGamlType() { return Types.get(ChatModelType.id); }
+
+	@Override
+	public IJsonValue serializeToJson(IJson json) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

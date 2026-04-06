@@ -15,22 +15,22 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import dev.langchain4j.agent.tool.ToolSpecification;
 import dev.langchain4j.mcp.client.DefaultMcpClient;
 import dev.langchain4j.mcp.client.McpClient;
-import dev.langchain4j.service.tool.ToolExecutor;
-import gama.annotations.precompiler.GamlAnnotations.action;
-import gama.annotations.precompiler.GamlAnnotations.arg;
-import gama.annotations.precompiler.GamlAnnotations.doc;
-import gama.annotations.precompiler.GamlAnnotations.skill;
-import gama.annotations.precompiler.GamlAnnotations.variable;
-import gama.annotations.precompiler.GamlAnnotations.vars;
-import gama.core.common.util.FileUtils;
-import gama.core.runtime.GAMA;
-import gama.core.runtime.IScope;
-import gama.core.runtime.exceptions.GamaRuntimeException;
-import gama.core.util.GamaListFactory;
-import gama.core.util.IList;
+import gama.annotations.action;
+import gama.annotations.arg;
+import gama.annotations.doc;
+import gama.annotations.skill;
+import gama.annotations.variable;
+import gama.annotations.vars;
+import gama.api.GAMA;
+import gama.api.exceptions.GamaRuntimeException;
+import gama.api.gaml.types.IType;
+import gama.api.kernel.skill.Skill;
+import gama.api.runtime.scope.IScope;
+import gama.api.types.list.GamaListFactory;
+import gama.api.types.list.IList;
+import gama.api.utils.files.FileUtils;
 import gama.dev.DEBUG;
 import gama.experimental.constants.LLMConstants;
 import gama.experimental.types.Assistant;
@@ -47,9 +47,7 @@ import gama.experimental.types.Memory;
 import gama.experimental.types.MemoryType;
 import gama.experimental.types.ToolProvider;
 import gama.experimental.types.ToolProviderType;
-import gama.gaml.descriptions.ActionDescription;
-import gama.gaml.skills.Skill;
-import gama.gaml.types.IType;
+import gaml.compiler.descriptions.ActionDescription;
 
 /**
  * The Class NetworkSkill.
